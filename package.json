@@ -1,0 +1,43 @@
+{
+	"name": "multiple-discord-music-bot",
+	"version": "1.0.0",
+	"description": "A powerful Discord Music Bot built with Discord.js v14, Sapphire Framework, and Lavalink. Features multi-language support, advanced queue management, and scalable multi-bot architecture.",
+	"main": "src/index.ts",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "bun ."
+	},
+        "keywords": [],
+        "author": "",
+        "license": "ISC",
+	"dependencies": {
+		"@sapphire/decorators": "^6.2.0",
+		"@sapphire/framework": "^5.4.0",
+		"@sapphire/plugin-logger": "^4.1.0",
+		"@skyra/env-utilities": "^2.0.1",
+		"@skyra/start-banner": "^2.0.2",
+		"axios": "^1.13.2",
+		"colorette": "^2.0.20",
+		"discord.js": "^14.24.2",
+		"express": "^5.1.0",
+		"figlet": "^1.9.4",
+		"gradient-string": "^3.0.0",
+		"html-to-text": "^9.0.5",
+		"iconv-lite": "^0.7.0",
+		"joi": "^18.0.1",
+		"kazagumo": "^3.4.0",
+		"shoukaku": "^4.2.0",
+		"ws": "^8.18.3"
+	},
+	"devDependencies": {
+		"@sapphire/ts-config": "^5.0.1",
+		"@types/express": "^5.0.5",
+		"@types/figlet": "^1.7.0",
+		"@types/gradient-string": "^1.1.6",
+		"@types/html-to-text": "^9.0.4",
+		"@types/node": "^24.10.1",
+		"@types/ws": "^8.18.1",
+		"typescript": "^5.9.3"
+	}
+}

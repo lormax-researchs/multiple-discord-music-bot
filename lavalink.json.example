@@ -1,0 +1,8 @@
+[
+    {
+        "name": "your-lavalink-name",
+        "url": "your-lavalink-url:your-lavalink-port",
+        "auth": "your-lavalink-password",
+        "secure": false
+    }
+]
